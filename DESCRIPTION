@@ -1,0 +1,12 @@
+Package: sciColors
+Type: Package
+Title: Scientific Journal Color Palettes
+Version: 0.1.0
+Authors@R: c(person(given = "Jingyi", family = "Wang", role = c("aut","cre"), email = "jingyi@example.com"))
+Description: A collection of 100 Hex color codes inspired by palettes commonly seen in Nature, Science, Cell, and other leading biology journals. Provides easy access to gradient and contrast color selections by theme.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5)
+Imports: grDevices
+LazyData: true
+RoxygenNote: 7.3.2

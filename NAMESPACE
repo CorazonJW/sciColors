@@ -1,0 +1,2 @@
+export(sci_colors)
+importFrom(grDevices, colorRampPalette)

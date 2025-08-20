@@ -1,0 +1,20 @@
+# R package build artifacts
+*.tar.gz
+*.tgz
+*.zip
+*.pdf
+
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+
+# R package specific
+*.Rcheck/
+*.Rproj.user/
+
+# macOS
+.DS_Store
+
+# RStudio
+.Rproj
