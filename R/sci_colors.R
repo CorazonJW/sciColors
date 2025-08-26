@@ -6,7 +6,7 @@
 #' @param effect One of "contrast" or "gradient". If "contrast", theme is ignored and
 #'   random colors are sampled from the curated database. If "gradient", a light-to-dark
 #'   gradient is generated within the selected theme using grDevices::colorRampPalette.
-#' @param theme One of "blue", "red", "orange", "green", "yellow", "purple", "grey", "pink".
+#' @param theme One of "blue", "orange", "green", "purple", "grey", "red".
 #'   Only used when `effect = "gradient"`.
 #' @return Character vector of Hex colors.
 #' @examples
@@ -16,7 +16,7 @@
 #' @export
 sci_colors <- function(n,
                        effect = c("contrast", "gradient"),
-                       theme = c("blue", "red", "orange", "green", "yellow", "purple", "grey", "pink")) {
+                       theme = c("blue", "orange", "green", "purple", "grey", "red")) {
 	effect <- match.arg(effect)
 	theme <- match.arg(theme)
 
