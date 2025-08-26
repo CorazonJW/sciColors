@@ -1,11 +1,10 @@
 ## sciColors: Scientific Journal Color Palettes
 
-A small R package that provides 100 curated Hex colors commonly seen in high-impact biology journals (Nature, Science, Cell, etc.).
+A small R package that provides curated Hex colors commonly seen in biology journals.
 
 ### Install (development)
 ```r
-# from local directory
-install.packages(".", repos = NULL, type = "source")
+devtools::install_github("CorazonJW/sciColors")
 ```
 
 ### Usage
