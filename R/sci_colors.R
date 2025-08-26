@@ -48,36 +48,32 @@ get_sci_colors_db <- function() .sci_colors_db
 # Colors are ordered from light to dark within each theme to support gradient creation.
 .sci_colors_db <- list(
 	blue = c(
-		"#F7FBFF", "#DEEBF7", "#C6DBEF", "#9ECAE1", "#6BAED6", "#4292C6",
-		"#2171B5", "#08519C", "#08306B", "#B3CDE3", "#6DAEDB", "#1F77B4", "#2C3E50"
-	),
-	red = c(
-		"#FFF5F0", "#FEE0D2", "#FCBBA1", "#FC9272", "#FB6A4A", "#EF3B2C",
-		"#CB181D", "#A50F15", "#67000D", "#E41A1C", "#D62728", "#C0392B", "#B22222"
+		"#e3f1ff", "#c2dffc", "#7fbdfa", "#5caaf7", "#0d41fc", 
+		"#2b49b5", "#0b247d", "#090b80", "#162f4d", "#93dbf5", 
+		"#6d99a8", "#55b6d9", "#2195bf", "#0381ad", "#46658a"
 	),
 	orange = c(
-		"#FFF5EB", "#FEE6CE", "#FDD0A2", "#FDAE6B", "#FD8D3C", "#F16913",
-		"#D94801", "#A63603", "#7F2704", "#E6550D", "#F4A261", "#FF7F0E", "#CC4C02"
+		"#fcf1d2", "#fce7ac", "#ffe08a", "#fcc426", "#f7ad23", 
+		"#f78c00", "#f76f00", "#c75102", "#9c4003", "#fcc795", 
+		"#fcbe95", "#e6550d", "#d14e26", "#e6400d"
 	),
 	green = c(
-		"#F7FCF5", "#E5F5E0", "#C7E9C0", "#A1D99B", "#74C476", "#41AB5D",
-		"#238B45", "#006D2C", "#00441B", "#2CA02C", "#66C2A4", "#31A354", "#1B9E77"
-	),
-	yellow = c(
-		"#FFFFE5", "#FFFDE7", "#FFF9C4", "#FFF59D", "#FFF176", "#FFEE58",
-		"#FFE082", "#FFEB3B", "#FDD835", "#FBC02D", "#FFD700", "#FFC107"
+		"#F2FFEd", "#E5F5E0", "#C7E9C0", "#A1D99B", "#74C476", "#41AB5D",
+		"#238B45", "#006D2C", "#00441B", "#2CA02C", "#66C2A4", "#1B9E77"
 	),
 	purple = c(
-		"#FCFBFD", "#EFEDF5", "#DADAEB", "#BCBDDC", "#9E9AC8", "#807DBA",
+		"#F1E8FA", "#E6E1F2", "#D1D1EB", "#BCBDDC", "#9E9AC8", "#807DBA",
 		"#6A51A3", "#54278F", "#3F007D", "#9467BD", "#8E44AD", "#7B3294"
 	),
 	grey = c(
-		"#FFFFFF", "#F0F0F0", "#E5E5E5", "#D9D9D9", "#CCCCCC", "#BDBDBD",
-		"#969696", "#737373", "#525252", "#4D4D4D", "#252525", "#000000"
+		"#F0F0F0", "#D9D9D9", "#BDBDBD",
+		"#737373", "#525252", "#252525"
 	),
-	pink = c(
-		"#FFF7F3", "#FDE0DD", "#FCC5C0", "#FA9FB5", "#F768A1", "#DD3497",
-		"#AE017E", "#7A0177", "#49006A", "#F1B6DA", "#E78AC3", "#FF69B4"
+	red = c(
+		"#fce0de", "#fccdca", "#f7a19c", "#fa8b84", "#f7756d", 
+		"#f73d31", "#cc291f", "#ab1c13", "#96130b", "#f5bacf", 
+		"#fa9bbd", "#f57aa6", "#cf5580", "#cc4576", "#f03578", 
+		"#faebe6", "#cc8386", "#9e6767", "#9c3535", "#610202"
 	)
 )
 
